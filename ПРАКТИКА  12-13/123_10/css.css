@@ -1,0 +1,12 @@
+table.jewel {
+    width: 100%;
+    border: 1px solid #666;
+}
+th {
+    background: #0fd;
+    color: #fff;
+    text-align: left;
+}
+tr.odd {
+    background: #e45eff;
+}

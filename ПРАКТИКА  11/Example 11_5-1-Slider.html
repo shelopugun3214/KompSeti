@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ползунок</title>
+        <script>
+            function sizePic(){
+                size = document.getElementById("size").value;
+                img = document.getElementById("pic");
+                img.width = 1 + 100*size;
+            }
+        </script>
+    </head>
+    <body>
+        <p>Размер рисунка: <input type="range" min="1" max="10" id="size" step="0.1"
+            oninput="sizePic()" value="3"></p>
+        <p><img src="../Photo/VAVAVAV.jpg" id="pic" width="300"></p>
+    </body>
+</html>

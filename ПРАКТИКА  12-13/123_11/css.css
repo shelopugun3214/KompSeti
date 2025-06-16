@@ -1,0 +1,16 @@
+div {
+    margin: 10px;
+    border: 1px solid #222;
+}
+#header {
+    height: 80px;
+    background-color: #ccc;
+}
+#content {
+    height: 180px;
+    background-color: #eee;
+}
+#footer {
+    height: 80px;
+    background-color: #ccc;
+}
