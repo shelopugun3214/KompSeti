@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.block {
+    width: 70%; 
+    height: 50px; 
+    margin-bottom: 10px; 
+    text-align: left;
+    line-height: 50px; 
+    font-size: 16px;
+}
+
+.opacity-01 {
+    margin-top: -10px;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.1); 
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.opacity-03 {
+    margin-top: -10px;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.3); 
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.opacity-06 {
+    margin-top: -10px;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.6); 
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.opacity-1 {
+    margin-top: -10px;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 1); 
+    color: rgba(0, 0, 0, 1);
+}

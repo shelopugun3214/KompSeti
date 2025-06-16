@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.block {
+    width: 100%;
+    border: 2px solid red;
+    font-size: 16px;
+
+}
+
+.block-1 {
+    padding-right: 2cm; 
+}
+
+.block-2 {
+    padding-right: 50%; 
+}

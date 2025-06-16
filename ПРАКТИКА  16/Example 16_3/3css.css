@@ -1,0 +1,9 @@
+p.cap {
+    text-transform: capitalize;
+}
+p.low {
+    text-transform: lowercase;
+}
+p.up {
+    text-transform: uppercase;
+}

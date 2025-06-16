@@ -1,0 +1,29 @@
+div.table {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 600px;
+}
+#color {
+    background-color: #099;
+    color: aliceblue;
+    border: 1px solid slategray;
+}
+.box {
+  background-color: #f00;
+  border: 1px solid slategray;
+  color: aliceblue;
+}
+#item {
+    text-align: center;
+    border: 1px solid slategray;
+}
+.rs {
+    grid-column: span 2;
+}
+.cs {
+    grid-row: span 2;
+}
+p {
+    font-size: 20px;
+    padding-left: 165px;
+}

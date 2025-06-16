@@ -1,0 +1,12 @@
+p.ls_1px{
+    letter-spacing: -1px;
+}
+p.ls1px{
+    letter-spacing: 1px;
+}
+p.ws_1px{
+    word-spacing: -1px;
+}
+p.ws1px{
+    word-spacing: 1px;
+}

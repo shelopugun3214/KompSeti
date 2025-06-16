@@ -1,0 +1,11 @@
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+td.color1 {
+    color: white;
+    background-color: maroon;
+}
+td.color2 {
+    background-color: #fffacd;
+}

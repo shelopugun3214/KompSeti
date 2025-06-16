@@ -1,0 +1,15 @@
+p.pod{
+    text-decoration: underline;
+}
+p.nad{
+    text-decoration: overline;
+}
+p.zach{
+    text-decoration: line-through;
+}
+p.ZachPod{
+    text-decoration: line-through underline;
+}
+p a{
+    text-decoration: none;
+}

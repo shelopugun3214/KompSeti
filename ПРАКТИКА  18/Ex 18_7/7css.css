@@ -1,0 +1,16 @@
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 340px;
+    height: 60px;
+}
+tr :first-child {
+    font-weight: bold;
+    background-color: goldenrod;
+}
+td {
+    border: 1px solid;
+}
+tr .align {
+    text-align: center;
+}

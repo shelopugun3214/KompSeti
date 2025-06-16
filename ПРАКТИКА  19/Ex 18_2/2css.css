@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px; 
+    padding: 20px; 
+}
+
+.header {
+    background-color: #397183; 
+    color: #fff; 
+    padding: 10px 15px; 
+    font-size: 28px; 
+    text-align: left; 
+}
+
+.content {
+    background-color: #c6e6e1;
+    padding: 10px 15px;
+    margin-top: -20px; 
+    text-align: left; 
+}

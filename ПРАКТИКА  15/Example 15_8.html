@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lang</title>
+        <style>
+            p { font-size: 150%; }
+            q:lang(de) { quotes: '\201E' '\201C'; }
+            q:lang(en) { quotes: '\201C' '\201D'; }
+            q:lang(fr), q:lang(ru) { quotes: '\00AB' '\00BB'; }
+        </style>
+    </head>
+    <body>
+        <p>Цитата на французском языке: <q lang="fr">Ce que femme veut, Dieu le veut</q>.</p>
+        <p>Цитата на немецком: <q lang="de">Der Mench, versuche die Gotter nitch</q>.</p>
+        <p>Цитата на английском: <q lang="en">To be or not to be</q>.</p>
+        <p>Цитата на русском: <q lang="кг">Быть или не быть</q>.</p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+h1 { 
+    color: green;
+    font-size: 25px;
+    font-weight: lighter;
+}
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    word-spacing: -1px;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
+    padding: 20px;
+}
+
+.block {
+    width: 80%; 
+    height: 70px; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.block-outset {
+    border: 25px outset blue; 
+}
+
+.block-inset {
+    border-top: 25px inset red; 
+    border-bottom: 25px inset red; 
+    border-left: 25px inset blue; 
+    border-right: 25px inset blue; 
+}
+
+.block-groove {
+    border-top: 25px groove red; 
+    border-bottom: 25px groove blue; 
+    border-left: 25px groove green; 
+    border-right: 25px groove green; 
+}
+
+.block-ridge {
+    border-top: 25px ridge red; 
+    border-bottom: 25px ridge blue; 
+    border-left: 25px ridge purple; 
+    border-right: 25px ridge green
+}

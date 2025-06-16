@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    background-color: brown;
+    color: azure;
+}
+td {
+    border: 1px solid brown;
+    background-color: blue;
+}
+#color {
+    background-color: brown;
+}
